@@ -1,0 +1,13 @@
+{
+    "LoginPage":
+    {
+      "userName": ["xpath","//input[@id='username']"],
+      "Password": ["xpath","//input[@id='password']"],
+      "userNameDescription": ["xpath","//input[@id='formly_1_input_username_0']"],
+      "Login":["xpath","//button[contains(text(),'Login')]"]
+    },
+    "HomePage":
+    {
+      "loginHome": ["xpath","//h1[contains(text(),'Home')]"]
+    }
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "PROTRACTOR-PROJECT",
+  "version": "1.0.0",
+  "description": "This framework is build using protractor and jasmine",
+  "dependencies": {
+    "chromedriver": "^86.0.0",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.1.1",
+    "path": "^0.11.14",
+    "protractor": "^5.4.2",
+    "protractor-html-reporter-2": "^1.0.4",
+    "webdriver-manager": "^12.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "test": "protractor firefox.conf.js"
+  }
+}

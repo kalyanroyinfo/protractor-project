@@ -1,0 +1,10 @@
+{
+
+    "search": {
+        "baseUrl": "http://www.way2automation.com/angularjs-protractor/registeration/#/login"
+      },
+    "UserDetails": {
+      "userName": "angular",
+      "password": "password"
+    }
+}
